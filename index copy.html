@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+      <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+   <div class="container d-flex align-items-center h-100">
+    <div class="row">
+      <header class="text-center col-12">
+       <h1 class="text-uppercase"><strong>The biggest startup event of the year</strong></h1>
+      </header>
+      <section class="text-center col-12"> 
+        <section class="buffer"></section>
+        <hr>
+        <a href="https://mailchi.mp/be26c7f316b2/startupproject">
+         <button class="btn btn-primary btn-xl">Find out more</button>
+        </a>
+      </section>
+     </div>
+   </div>
+  </body>
+</html>
+ 
+
+ <!-- There is relation between how you layout your code, for example see at row 23 <html> tag is closer to the number than 22nd and 21st row. I still figured out the exact relation but adjusting them properly, ithink parent by parent and child by child allows the code to work. Because <hr> tag didnt work untill I adjusted it in this way. Before almost all the tags followed a straight column. I assume that <html> tag needs to be the first row <head> and <body> second row and everything else 3rd row however parents should be 3rd and childs should be 4th for easier identification. OOps it turs out that it doesnt matter, it worked when i tried later on but still its better to follow an order so the code is more readable, it is called indenting. Okay turns out that it does actually work when i tried to add buffer section it wouldnt work till i adjusted it away from the section above. So i think it might also be becaue it cant read two related tags when they are aligned together in one row-->
+
+ 
